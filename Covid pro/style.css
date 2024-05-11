@@ -1,0 +1,153 @@
+.banner {
+  background-image: url(back-banner.svg);
+  background-repeat: no-repeat;
+}
+
+.banner2 {
+  padding: 20px;
+  background-color: rgb(230, 228, 228);
+}
+
+.btn-outline-primary {
+  border: 3px solid blue !important;
+  padding: 12px !important;
+  font-size: 16px !important;
+}
+
+.nav-link {
+  margin-left: 5px;
+  font-size: 20px !important;
+  padding: 20px !important;
+}
+
+.nav-link a :hover {
+  color: blue !important;
+  background-color: chocolate;
+}
+
+.banner {
+  padding: 20px;
+}
+
+.banner2 {
+  background-color: #eaedf3;
+}
+
+.banner3 {
+  background-image: url(back-banner.svg);
+  padding: 10px;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+}
+
+.video-container {
+  width: 100%;
+}
+
+.video-container video {
+  width: 100%;
+}
+
+.image-container {
+  position: absolute;
+  top: -80px;
+  right: -120px !important;
+  width: 20%;
+}
+
+.image-corner {
+  width: 100%;
+}
+
+.video {
+  height: 110px;
+}
+
+.vdo {
+  padding: 120px;
+}
+
+@media only screen and (max-width: 420px) {
+  .image-container {
+    position: absolute;
+    top: -20px;
+    right: -20px !important;
+    width: 20%;
+  }
+
+  .vdo {
+    padding: 20px;
+  }
+}
+
+.card {
+  padding: 50px;
+  margin: -2px !important;
+  border: 0px !important;
+  border-radius: 0 !important;
+  margin-left: -20px !important;
+}
+
+.card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.arrow {
+  color: blue;
+}
+
+.mng {
+  padding: 20px;
+}
+
+.mng img {
+  border-radius: 25px;
+
+  opacity: 0.5;
+}
+
+.bgm {
+  background-image: url(back-banner.svg);
+  position: relative;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 110px;
+  text-align: center;
+  margin-bottom: -120px;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+  .bgm {
+    background-image: url(back-banner.svg);
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    padding: 20px !important;
+    margin: 0;
+    margin-top: 0;
+  }
+  .pngg{
+    padding: 0;
+  }
+}
+
+
+.line-1 {
+    height: 1px;
+    background: rgb(173, 170, 170);
+  }
+footer{
+    padding-top: 144px !important;
+    font-size: 20px;
+    padding: 60px;
+    text-decoration: none !important;
+}
+
